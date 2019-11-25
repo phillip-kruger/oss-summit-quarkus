@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-live coding</actionName>
+            <displayName>live coding</displayName>
+            <goals>
+                <goal>compile</goal>
+                <goal>quarkus:dev</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-executable jar</actionName>
+            <displayName>executable jar</displayName>
+            <goals>
+                <goal>package</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-native</actionName>
+            <displayName>native</displayName>
+            <goals>
+                <goal>package</goal>
+            </goals>
+            <properties>
+                <quarkus.native.container-build>true</quarkus.native.container-build>
+                <quarkus.native.container-runtime>podman</quarkus.native.container-runtime>
+            </properties>
+            <activatedProfiles>
+                <activatedProfile>native</activatedProfile>
+            </activatedProfiles>
+        </action>
+        <action>
+            <actionName>CUSTOM-list-extensions</actionName>
+            <displayName>list-extensions</displayName>
+            <goals>
+                <goal>quarkus:list-extensions</goal>
+            </goals>
+        </action>
+    </actions>
