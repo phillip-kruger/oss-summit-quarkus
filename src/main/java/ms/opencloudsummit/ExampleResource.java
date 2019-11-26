@@ -1,4 +1,4 @@
-package org.oss.summit;
+package ms.opencloudsummit;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;
