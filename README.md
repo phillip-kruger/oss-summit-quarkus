@@ -1,5 +1,9 @@
-# oss-summit-quarkus
-Quarkus Demo for OSS Summit 2019
+# Quarkus Introduction
+Basic Quarkus Demo
+
+## Links
+- Install Openshift on localhost: https://developers.redhat.com/openshift/local-openshift/
+- Create a starter project: https://code.quarkus.io/
 
 ## Deploy to Openshift
 
