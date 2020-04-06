@@ -1,4 +1,4 @@
-package ms.opencloudsummit;
+package com.github.phillipkruger.intro.quarkus;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;

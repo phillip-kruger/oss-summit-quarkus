@@ -1,4 +1,4 @@
-package ms.opencloudsummit;
+package com.github.phillipkruger.intro.quarkus;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;
